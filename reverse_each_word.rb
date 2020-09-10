@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  newsentence = sentence.split(",")
+  newsentence = sentence.split(" ")
   result = []
   newsentence.each do
   |word| result << "#{word}".reverse 
