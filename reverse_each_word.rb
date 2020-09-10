@@ -1,3 +1,4 @@
 def reverse_each_word(sentence)
-  sentence.split(" ")
+  newsentence = sentence.split(" ")
+  reverse_each_word.each 
 end 
