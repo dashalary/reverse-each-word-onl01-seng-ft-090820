@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   newsentence.each do
   |word| result << "#{word}".reverse 
 end
-result.join
+result.join(" ")
 end
