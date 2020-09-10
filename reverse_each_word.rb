@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   newsentence = sentence.split(",")
   newsentence.each do
   |word|
-  puts "#{word}".reverse
+ "#{word}".reverse
+ puts sentence.join
 end
-return sentence.join
 end
