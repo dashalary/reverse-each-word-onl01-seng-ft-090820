@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   result = []
   newsentence.each do
   |word| result << "#{word}".reverse 
-  
+  puts result
 end
 end
