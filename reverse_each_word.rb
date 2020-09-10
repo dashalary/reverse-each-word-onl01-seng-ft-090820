@@ -12,7 +12,7 @@ def reverse_each_word(sentence)
   result = []
   newsentence.collect do
   |word| result << "#{word}".reverse 
-  result.join(" ")
 end
+result.join(" ")
 end
 
