@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
   |word|
   "#{word}.reverse" << result
   result.join
- return result.join
+end
 end
