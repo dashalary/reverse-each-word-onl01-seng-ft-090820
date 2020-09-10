@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   newsentence = sentence.split(",")
   newarray = []
   newsentence.each do
-  |word| word << newarray
+  |word| new array << "#{word}"
 newarray.reverse
 newarray.join
 end
