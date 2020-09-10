@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   newarray = []
   newsentence.each do
   |word| newarray << "#{word}"
-newarray.reverse
-return newarray.join
 end
+newarray.reverse 
+newarray.join
 end
