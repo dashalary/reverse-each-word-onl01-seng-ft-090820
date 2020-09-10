@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
   |word| newarray << "#{word}"
 end
 newarray.reverse 
-newarray.join
+puts newarray.join
 end
