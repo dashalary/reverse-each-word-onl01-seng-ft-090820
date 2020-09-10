@@ -4,6 +4,6 @@ def reverse_each_word(sentence)
   newsentence.each do
   |word| newarray << "#{word}"
 newarray.reverse
-newarray.join
+return newarray.join
 end
 end
